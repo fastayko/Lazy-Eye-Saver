@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{3ECAC709-4B59-4E82-88A9-D0A78CA656CF}</ProjectGuid>
+    <ProjectGuid>{62C05B72-E13A-47B8-9346-02DCEE78C8E9}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <RootNamespace>Lazy_Eye_Saver</RootNamespace>
     <AssemblyName>Lazy Eye Saver</AssemblyName>
@@ -35,6 +35,7 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Management" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />

@@ -7,13 +7,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using System.Collections;
-using System;
-using System.Drawing;
-using System.Runtime.InteropServices;
-using System.Windows.Forms;
 using System;
 using System.Management;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Runtime.InteropServices;
 
 namespace Lazy_Eye_Saver
 {
@@ -24,46 +23,14 @@ namespace Lazy_Eye_Saver
             InitializeComponent();
         }
 
-
         private void btnStart_Click(object sender, EventArgs e)
         {
-            //SetGamma((int)nudBrightnessValue.Value);
             var instance = new PhysicalMonitorBrightnessController();
-            instance.Set((uint)nudBrightnessValue.Value);
+            instance.Set((uint)nudBrightness.Value);
+            WindowsSettingsBrightnessController.Set((int)nudBrightness.Value);
         }
     }
 
-
-    public static class WindowsSettingsBrightnessController
-    {
-        public static int Get()
-        {
-            using var mclass = new ManagementClass("WmiMonitorBrightness")
-            {
-                Scope = new ManagementScope(@"\\.\root\wmi")
-            };
-            using var instances = mclass.GetInstances();
-            foreach (ManagementObject instance in instances)
-            {
-                return (byte)instance.GetPropertyValue("CurrentBrightness");
-            }
-            return 0;
-        }
-
-        public static void Set(int brightness)
-        {
-            using var mclass = new ManagementClass("WmiMonitorBrightnessMethods")
-            {
-                Scope = new ManagementScope(@"\\.\root\wmi")
-            };
-            using var instances = mclass.GetInstances();
-            var args = new object[] { 1, brightness };
-            foreach (ManagementObject instance in instances)
-            {
-                instance.InvokeMethod("WmiSetBrightness", args);
-            }
-        }
-    }
 
     public class PhysicalMonitorBrightnessController : IDisposable
     {
@@ -233,5 +200,36 @@ namespace Lazy_Eye_Saver
             public uint CurrentValue { get; set; }
         }
         #endregion
+    }
+
+    public static class WindowsSettingsBrightnessController
+    {
+        public static int Get()
+        {
+             var mclass = new ManagementClass("WmiMonitorBrightness")
+            {
+                Scope = new ManagementScope(@"\\.\root\wmi")
+            };
+             var instances = mclass.GetInstances();
+            foreach (ManagementObject instance in instances)
+            {
+                return (byte)instance.GetPropertyValue("CurrentBrightness");
+            }
+            return 0;
+        }
+
+        public static void Set(int brightness)
+        {
+             var mclass = new ManagementClass("WmiMonitorBrightnessMethods")
+            {
+                Scope = new ManagementScope(@"\\.\root\wmi")
+            };
+             var instances = mclass.GetInstances();
+            var args = new object[] { 1, brightness };
+            foreach (ManagementObject instance in instances)
+            {
+                instance.InvokeMethod("WmiSetBrightness", args);
+            }
+        }
     }
 }

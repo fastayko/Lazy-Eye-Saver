@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31729.503
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lazy Eye Saver", "Lazy Eye Saver.csproj", "{3ECAC709-4B59-4E82-88A9-D0A78CA656CF}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lazy Eye Saver", "Lazy Eye Saver.csproj", "{62C05B72-E13A-47B8-9346-02DCEE78C8E9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{3ECAC709-4B59-4E82-88A9-D0A78CA656CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{3ECAC709-4B59-4E82-88A9-D0A78CA656CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{3ECAC709-4B59-4E82-88A9-D0A78CA656CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{3ECAC709-4B59-4E82-88A9-D0A78CA656CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{62C05B72-E13A-47B8-9346-02DCEE78C8E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62C05B72-E13A-47B8-9346-02DCEE78C8E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62C05B72-E13A-47B8-9346-02DCEE78C8E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62C05B72-E13A-47B8-9346-02DCEE78C8E9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {CFBE9A39-2574-4A6E-937D-B3E62B3B87FF}
+		SolutionGuid = {36C3B4CB-5943-4B4F-BE11-E1D263E78A09}
 	EndGlobalSection
 EndGlobal
