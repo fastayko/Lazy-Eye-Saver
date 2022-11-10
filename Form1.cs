@@ -29,6 +29,16 @@ namespace Lazy_Eye_Saver
             instance.Set((uint)nudBrightness.Value);
             WindowsSettingsBrightnessController.Set((int)nudBrightness.Value);
         }
+
+        private void nudBrightness_ValueChanged(object sender, EventArgs e)
+        {
+            tbBrightness.Value = (int)nudBrightness.Value;
+        }
+
+        private void tbBrightness_Scroll(object sender, EventArgs e)
+        {
+            nudBrightness.Value = tbBrightness.Value;
+        }
     }
 
 
