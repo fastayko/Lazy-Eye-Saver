@@ -39,6 +39,11 @@ namespace Lazy_Eye_Saver
         {
             nudBrightness.Value = tbBrightness.Value;
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            cbTimeUnit.SelectedItem = "Seconds";
+        }
     }
 
 

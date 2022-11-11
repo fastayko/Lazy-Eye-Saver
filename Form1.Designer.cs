@@ -36,7 +36,6 @@ namespace Lazy_Eye_Saver
             this.label1 = new System.Windows.Forms.Label();
             this.tbBrightness = new System.Windows.Forms.TrackBar();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.label11 = new System.Windows.Forms.Label();
             this.numericUpDown5 = new System.Windows.Forms.NumericUpDown();
             this.label10 = new System.Windows.Forms.Label();
             this.checkBox4 = new System.Windows.Forms.CheckBox();
@@ -69,6 +68,7 @@ namespace Lazy_Eye_Saver
             this.toolStripStatusLabel1 = new System.Windows.Forms.ToolStripStatusLabel();
             this.toolStripStatusLabel2 = new System.Windows.Forms.ToolStripStatusLabel();
             this.toolStripStatusLabel3 = new System.Windows.Forms.ToolStripStatusLabel();
+            this.cbTimeUnit = new System.Windows.Forms.ComboBox();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudBrightness)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.tbBrightness)).BeginInit();
@@ -141,7 +141,7 @@ namespace Lazy_Eye_Saver
             // 
             // groupBox2
             // 
-            this.groupBox2.Controls.Add(this.label11);
+            this.groupBox2.Controls.Add(this.cbTimeUnit);
             this.groupBox2.Controls.Add(this.numericUpDown5);
             this.groupBox2.Controls.Add(this.label10);
             this.groupBox2.Controls.Add(this.checkBox4);
@@ -176,20 +176,11 @@ namespace Lazy_Eye_Saver
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Automated Brightness Control";
             // 
-            // label11
-            // 
-            this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(292, 157);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(57, 17);
-            this.label11.TabIndex = 28;
-            this.label11.Text = "Seconds";
-            // 
             // numericUpDown5
             // 
             this.numericUpDown5.Location = new System.Drawing.Point(242, 155);
             this.numericUpDown5.Name = "numericUpDown5";
-            this.numericUpDown5.Size = new System.Drawing.Size(44, 25);
+            this.numericUpDown5.Size = new System.Drawing.Size(58, 25);
             this.numericUpDown5.TabIndex = 27;
             this.numericUpDown5.Value = new decimal(new int[] {
             100,
@@ -491,6 +482,19 @@ namespace Lazy_Eye_Saver
             this.toolStripStatusLabel3.Size = new System.Drawing.Size(94, 17);
             this.toolStripStatusLabel3.Text = "By: Khalil Hamdi";
             // 
+            // cbTimeUnit
+            // 
+            this.cbTimeUnit.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cbTimeUnit.FormattingEnabled = true;
+            this.cbTimeUnit.Items.AddRange(new object[] {
+            "Seconds",
+            "Minutes",
+            "Hours"});
+            this.cbTimeUnit.Location = new System.Drawing.Point(306, 155);
+            this.cbTimeUnit.Name = "cbTimeUnit";
+            this.cbTimeUnit.Size = new System.Drawing.Size(80, 25);
+            this.cbTimeUnit.TabIndex = 29;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 17F);
@@ -504,6 +508,7 @@ namespace Lazy_Eye_Saver
             this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "Form1";
             this.Text = "The Lazy Eye Saver";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudBrightness)).EndInit();
@@ -557,12 +562,12 @@ namespace Lazy_Eye_Saver
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.DateTimePicker dateTimePicker4;
         private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.Label label11;
         private System.Windows.Forms.NumericUpDown numericUpDown5;
         private System.Windows.Forms.StatusStrip statusStrip1;
         private System.Windows.Forms.ToolStripStatusLabel toolStripStatusLabel1;
         private System.Windows.Forms.ToolStripStatusLabel toolStripStatusLabel2;
         private System.Windows.Forms.ToolStripStatusLabel toolStripStatusLabel3;
+        private System.Windows.Forms.ComboBox cbTimeUnit;
     }
 }
 
