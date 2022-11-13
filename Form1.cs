@@ -25,9 +25,14 @@ namespace Lazy_Eye_Saver
 
         private void btnStart_Click(object sender, EventArgs e)
         {
+            setBrightness((int)nudBrightness.Value);
+        }
+
+        private void setBrightness(int value)
+        {
             var instance = new PhysicalMonitorBrightnessController();
-            instance.Set((uint)nudBrightness.Value);
-            WindowsSettingsBrightnessController.Set((int)nudBrightness.Value);
+            instance.Set((uint)value);
+            WindowsSettingsBrightnessController.Set((int)value);
         }
 
         private void nudBrightness_ValueChanged(object sender, EventArgs e)
@@ -43,6 +48,23 @@ namespace Lazy_Eye_Saver
         private void Form1_Load(object sender, EventArgs e)
         {
             cbTimeUnit.SelectedItem = "Seconds";
+        }
+
+        private void cbAutoBrightnessControl_CheckedChanged(object sender, EventArgs e)
+        {
+            if(cbAutoBrightnessControl.Checked) tmrCheckAutomation.Enabled = true;
+            else tmrCheckAutomation.Enabled = false;
+        }
+
+        private void tmrCheckAutomation_Tick(object sender, EventArgs e)
+        {
+            DateTime now = DateTime.Now;
+            int res = DateTime.Compare(now, dtpFrom1.Value);
+            if (cbZone1.Checked && DateTime.Compare(now, dtpFrom1.Value) >= 0 && DateTime.Compare(now, dtpTo1.Value) <= 0)
+            {
+                setBrightness((int)nudAutoBrightness1.Value);
+            }
+            //TODO: i have to make it do once not spam every minute
         }
     }
 

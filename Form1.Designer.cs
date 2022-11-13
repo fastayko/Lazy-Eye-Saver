@@ -459,11 +459,13 @@ namespace Lazy_Eye_Saver
             this.cbAutoBrightnessControl.TabIndex = 0;
             this.cbAutoBrightnessControl.Text = "Auto Brightness Control";
             this.cbAutoBrightnessControl.UseVisualStyleBackColor = true;
+            this.cbAutoBrightnessControl.CheckedChanged += new System.EventHandler(this.cbAutoBrightnessControl_CheckedChanged);
             // 
             // tmrCheckAutomation
             // 
             this.tmrCheckAutomation.Enabled = true;
             this.tmrCheckAutomation.Interval = 60000;
+            this.tmrCheckAutomation.Tick += new System.EventHandler(this.tmrCheckAutomation_Tick);
             // 
             // statusStrip1
             // 
