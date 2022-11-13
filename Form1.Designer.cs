@@ -36,48 +36,48 @@ namespace Lazy_Eye_Saver
             this.label1 = new System.Windows.Forms.Label();
             this.tbBrightness = new System.Windows.Forms.TrackBar();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.cbTimeUnit = new System.Windows.Forms.ComboBox();
             this.numericUpDown5 = new System.Windows.Forms.NumericUpDown();
             this.label10 = new System.Windows.Forms.Label();
-            this.checkBox4 = new System.Windows.Forms.CheckBox();
-            this.numericUpDown4 = new System.Windows.Forms.NumericUpDown();
+            this.cbZone4 = new System.Windows.Forms.CheckBox();
+            this.nudAutoBrightness4 = new System.Windows.Forms.NumericUpDown();
             this.label8 = new System.Windows.Forms.Label();
-            this.dateTimePicker7 = new System.Windows.Forms.DateTimePicker();
+            this.dtpTo4 = new System.Windows.Forms.DateTimePicker();
             this.label9 = new System.Windows.Forms.Label();
-            this.dateTimePicker8 = new System.Windows.Forms.DateTimePicker();
-            this.checkBox3 = new System.Windows.Forms.CheckBox();
-            this.numericUpDown3 = new System.Windows.Forms.NumericUpDown();
+            this.dtpFrom4 = new System.Windows.Forms.DateTimePicker();
+            this.cbZone3 = new System.Windows.Forms.CheckBox();
+            this.nudAutoBrightness3 = new System.Windows.Forms.NumericUpDown();
             this.label6 = new System.Windows.Forms.Label();
-            this.dateTimePicker5 = new System.Windows.Forms.DateTimePicker();
+            this.dtpTo3 = new System.Windows.Forms.DateTimePicker();
             this.label7 = new System.Windows.Forms.Label();
-            this.dateTimePicker6 = new System.Windows.Forms.DateTimePicker();
-            this.checkBox2 = new System.Windows.Forms.CheckBox();
-            this.numericUpDown2 = new System.Windows.Forms.NumericUpDown();
+            this.dtpFrom3 = new System.Windows.Forms.DateTimePicker();
+            this.cbZone2 = new System.Windows.Forms.CheckBox();
+            this.nudAutoBrightness2 = new System.Windows.Forms.NumericUpDown();
             this.label4 = new System.Windows.Forms.Label();
-            this.dateTimePicker3 = new System.Windows.Forms.DateTimePicker();
+            this.dtpTo2 = new System.Windows.Forms.DateTimePicker();
             this.label5 = new System.Windows.Forms.Label();
-            this.dateTimePicker4 = new System.Windows.Forms.DateTimePicker();
-            this.checkBox1 = new System.Windows.Forms.CheckBox();
-            this.numericUpDown1 = new System.Windows.Forms.NumericUpDown();
+            this.dtpFrom2 = new System.Windows.Forms.DateTimePicker();
+            this.cbZone1 = new System.Windows.Forms.CheckBox();
+            this.nudAutoBrightness1 = new System.Windows.Forms.NumericUpDown();
             this.label3 = new System.Windows.Forms.Label();
-            this.dateTimePicker2 = new System.Windows.Forms.DateTimePicker();
+            this.dtpTo1 = new System.Windows.Forms.DateTimePicker();
             this.label2 = new System.Windows.Forms.Label();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
+            this.dtpFrom1 = new System.Windows.Forms.DateTimePicker();
             this.cbAutoBrightnessControl = new System.Windows.Forms.CheckBox();
             this.tmrCheckAutomation = new System.Windows.Forms.Timer(this.components);
             this.statusStrip1 = new System.Windows.Forms.StatusStrip();
             this.toolStripStatusLabel1 = new System.Windows.Forms.ToolStripStatusLabel();
             this.toolStripStatusLabel2 = new System.Windows.Forms.ToolStripStatusLabel();
             this.toolStripStatusLabel3 = new System.Windows.Forms.ToolStripStatusLabel();
-            this.cbTimeUnit = new System.Windows.Forms.ComboBox();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudBrightness)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.tbBrightness)).BeginInit();
             this.groupBox2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown5)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.nudAutoBrightness4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.nudAutoBrightness3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.nudAutoBrightness2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.nudAutoBrightness1)).BeginInit();
             this.statusStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -144,30 +144,30 @@ namespace Lazy_Eye_Saver
             this.groupBox2.Controls.Add(this.cbTimeUnit);
             this.groupBox2.Controls.Add(this.numericUpDown5);
             this.groupBox2.Controls.Add(this.label10);
-            this.groupBox2.Controls.Add(this.checkBox4);
-            this.groupBox2.Controls.Add(this.numericUpDown4);
+            this.groupBox2.Controls.Add(this.cbZone4);
+            this.groupBox2.Controls.Add(this.nudAutoBrightness4);
             this.groupBox2.Controls.Add(this.label8);
-            this.groupBox2.Controls.Add(this.dateTimePicker7);
+            this.groupBox2.Controls.Add(this.dtpTo4);
             this.groupBox2.Controls.Add(this.label9);
-            this.groupBox2.Controls.Add(this.dateTimePicker8);
-            this.groupBox2.Controls.Add(this.checkBox3);
-            this.groupBox2.Controls.Add(this.numericUpDown3);
+            this.groupBox2.Controls.Add(this.dtpFrom4);
+            this.groupBox2.Controls.Add(this.cbZone3);
+            this.groupBox2.Controls.Add(this.nudAutoBrightness3);
             this.groupBox2.Controls.Add(this.label6);
-            this.groupBox2.Controls.Add(this.dateTimePicker5);
+            this.groupBox2.Controls.Add(this.dtpTo3);
             this.groupBox2.Controls.Add(this.label7);
-            this.groupBox2.Controls.Add(this.dateTimePicker6);
-            this.groupBox2.Controls.Add(this.checkBox2);
-            this.groupBox2.Controls.Add(this.numericUpDown2);
+            this.groupBox2.Controls.Add(this.dtpFrom3);
+            this.groupBox2.Controls.Add(this.cbZone2);
+            this.groupBox2.Controls.Add(this.nudAutoBrightness2);
             this.groupBox2.Controls.Add(this.label4);
-            this.groupBox2.Controls.Add(this.dateTimePicker3);
+            this.groupBox2.Controls.Add(this.dtpTo2);
             this.groupBox2.Controls.Add(this.label5);
-            this.groupBox2.Controls.Add(this.dateTimePicker4);
-            this.groupBox2.Controls.Add(this.checkBox1);
-            this.groupBox2.Controls.Add(this.numericUpDown1);
+            this.groupBox2.Controls.Add(this.dtpFrom2);
+            this.groupBox2.Controls.Add(this.cbZone1);
+            this.groupBox2.Controls.Add(this.nudAutoBrightness1);
             this.groupBox2.Controls.Add(this.label3);
-            this.groupBox2.Controls.Add(this.dateTimePicker2);
+            this.groupBox2.Controls.Add(this.dtpTo1);
             this.groupBox2.Controls.Add(this.label2);
-            this.groupBox2.Controls.Add(this.dateTimePicker1);
+            this.groupBox2.Controls.Add(this.dtpFrom1);
             this.groupBox2.Controls.Add(this.cbAutoBrightnessControl);
             this.groupBox2.Location = new System.Drawing.Point(12, 87);
             this.groupBox2.Name = "groupBox2";
@@ -175,6 +175,19 @@ namespace Lazy_Eye_Saver
             this.groupBox2.TabIndex = 3;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Automated Brightness Control";
+            // 
+            // cbTimeUnit
+            // 
+            this.cbTimeUnit.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cbTimeUnit.FormattingEnabled = true;
+            this.cbTimeUnit.Items.AddRange(new object[] {
+            "Seconds",
+            "Minutes",
+            "Hours"});
+            this.cbTimeUnit.Location = new System.Drawing.Point(306, 155);
+            this.cbTimeUnit.Name = "cbTimeUnit";
+            this.cbTimeUnit.Size = new System.Drawing.Size(80, 25);
+            this.cbTimeUnit.TabIndex = 29;
             // 
             // numericUpDown5
             // 
@@ -197,23 +210,23 @@ namespace Lazy_Eye_Saver
             this.label10.TabIndex = 5;
             this.label10.Text = "Smooth Brightness Transition duration:";
             // 
-            // checkBox4
+            // cbZone4
             // 
-            this.checkBox4.AutoSize = true;
-            this.checkBox4.Location = new System.Drawing.Point(6, 131);
-            this.checkBox4.Name = "checkBox4";
-            this.checkBox4.Size = new System.Drawing.Size(70, 21);
-            this.checkBox4.TabIndex = 26;
-            this.checkBox4.Text = "Zone 1:";
-            this.checkBox4.UseVisualStyleBackColor = true;
+            this.cbZone4.AutoSize = true;
+            this.cbZone4.Location = new System.Drawing.Point(6, 131);
+            this.cbZone4.Name = "cbZone4";
+            this.cbZone4.Size = new System.Drawing.Size(70, 21);
+            this.cbZone4.TabIndex = 26;
+            this.cbZone4.Text = "Zone 4:";
+            this.cbZone4.UseVisualStyleBackColor = true;
             // 
-            // numericUpDown4
+            // nudAutoBrightness4
             // 
-            this.numericUpDown4.Location = new System.Drawing.Point(342, 129);
-            this.numericUpDown4.Name = "numericUpDown4";
-            this.numericUpDown4.Size = new System.Drawing.Size(44, 25);
-            this.numericUpDown4.TabIndex = 22;
-            this.numericUpDown4.Value = new decimal(new int[] {
+            this.nudAutoBrightness4.Location = new System.Drawing.Point(342, 129);
+            this.nudAutoBrightness4.Name = "nudAutoBrightness4";
+            this.nudAutoBrightness4.Size = new System.Drawing.Size(44, 25);
+            this.nudAutoBrightness4.TabIndex = 22;
+            this.nudAutoBrightness4.Value = new decimal(new int[] {
             100,
             0,
             0,
@@ -228,15 +241,15 @@ namespace Lazy_Eye_Saver
             this.label8.TabIndex = 25;
             this.label8.Text = "Set Brightness:";
             // 
-            // dateTimePicker7
+            // dtpTo4
             // 
-            this.dateTimePicker7.CustomFormat = "HH:mm";
-            this.dateTimePicker7.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.dateTimePicker7.Location = new System.Drawing.Point(182, 129);
-            this.dateTimePicker7.Name = "dateTimePicker7";
-            this.dateTimePicker7.ShowUpDown = true;
-            this.dateTimePicker7.Size = new System.Drawing.Size(60, 25);
-            this.dateTimePicker7.TabIndex = 24;
+            this.dtpTo4.CustomFormat = "HH:mm";
+            this.dtpTo4.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
+            this.dtpTo4.Location = new System.Drawing.Point(182, 129);
+            this.dtpTo4.Name = "dtpTo4";
+            this.dtpTo4.ShowUpDown = true;
+            this.dtpTo4.Size = new System.Drawing.Size(60, 25);
+            this.dtpTo4.TabIndex = 24;
             // 
             // label9
             // 
@@ -247,33 +260,33 @@ namespace Lazy_Eye_Saver
             this.label9.TabIndex = 23;
             this.label9.Text = "-->";
             // 
-            // dateTimePicker8
+            // dtpFrom4
             // 
-            this.dateTimePicker8.CustomFormat = "HH:mm";
-            this.dateTimePicker8.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.dateTimePicker8.Location = new System.Drawing.Point(87, 129);
-            this.dateTimePicker8.Name = "dateTimePicker8";
-            this.dateTimePicker8.ShowUpDown = true;
-            this.dateTimePicker8.Size = new System.Drawing.Size(60, 25);
-            this.dateTimePicker8.TabIndex = 21;
+            this.dtpFrom4.CustomFormat = "HH:mm";
+            this.dtpFrom4.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
+            this.dtpFrom4.Location = new System.Drawing.Point(87, 129);
+            this.dtpFrom4.Name = "dtpFrom4";
+            this.dtpFrom4.ShowUpDown = true;
+            this.dtpFrom4.Size = new System.Drawing.Size(60, 25);
+            this.dtpFrom4.TabIndex = 21;
             // 
-            // checkBox3
+            // cbZone3
             // 
-            this.checkBox3.AutoSize = true;
-            this.checkBox3.Location = new System.Drawing.Point(6, 104);
-            this.checkBox3.Name = "checkBox3";
-            this.checkBox3.Size = new System.Drawing.Size(70, 21);
-            this.checkBox3.TabIndex = 20;
-            this.checkBox3.Text = "Zone 1:";
-            this.checkBox3.UseVisualStyleBackColor = true;
+            this.cbZone3.AutoSize = true;
+            this.cbZone3.Location = new System.Drawing.Point(6, 104);
+            this.cbZone3.Name = "cbZone3";
+            this.cbZone3.Size = new System.Drawing.Size(70, 21);
+            this.cbZone3.TabIndex = 20;
+            this.cbZone3.Text = "Zone 3:";
+            this.cbZone3.UseVisualStyleBackColor = true;
             // 
-            // numericUpDown3
+            // nudAutoBrightness3
             // 
-            this.numericUpDown3.Location = new System.Drawing.Point(342, 102);
-            this.numericUpDown3.Name = "numericUpDown3";
-            this.numericUpDown3.Size = new System.Drawing.Size(44, 25);
-            this.numericUpDown3.TabIndex = 16;
-            this.numericUpDown3.Value = new decimal(new int[] {
+            this.nudAutoBrightness3.Location = new System.Drawing.Point(342, 102);
+            this.nudAutoBrightness3.Name = "nudAutoBrightness3";
+            this.nudAutoBrightness3.Size = new System.Drawing.Size(44, 25);
+            this.nudAutoBrightness3.TabIndex = 16;
+            this.nudAutoBrightness3.Value = new decimal(new int[] {
             100,
             0,
             0,
@@ -288,15 +301,15 @@ namespace Lazy_Eye_Saver
             this.label6.TabIndex = 19;
             this.label6.Text = "Set Brightness:";
             // 
-            // dateTimePicker5
+            // dtpTo3
             // 
-            this.dateTimePicker5.CustomFormat = "HH:mm";
-            this.dateTimePicker5.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.dateTimePicker5.Location = new System.Drawing.Point(182, 102);
-            this.dateTimePicker5.Name = "dateTimePicker5";
-            this.dateTimePicker5.ShowUpDown = true;
-            this.dateTimePicker5.Size = new System.Drawing.Size(60, 25);
-            this.dateTimePicker5.TabIndex = 18;
+            this.dtpTo3.CustomFormat = "HH:mm";
+            this.dtpTo3.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
+            this.dtpTo3.Location = new System.Drawing.Point(182, 102);
+            this.dtpTo3.Name = "dtpTo3";
+            this.dtpTo3.ShowUpDown = true;
+            this.dtpTo3.Size = new System.Drawing.Size(60, 25);
+            this.dtpTo3.TabIndex = 18;
             // 
             // label7
             // 
@@ -307,33 +320,33 @@ namespace Lazy_Eye_Saver
             this.label7.TabIndex = 17;
             this.label7.Text = "-->";
             // 
-            // dateTimePicker6
+            // dtpFrom3
             // 
-            this.dateTimePicker6.CustomFormat = "HH:mm";
-            this.dateTimePicker6.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.dateTimePicker6.Location = new System.Drawing.Point(87, 102);
-            this.dateTimePicker6.Name = "dateTimePicker6";
-            this.dateTimePicker6.ShowUpDown = true;
-            this.dateTimePicker6.Size = new System.Drawing.Size(60, 25);
-            this.dateTimePicker6.TabIndex = 15;
+            this.dtpFrom3.CustomFormat = "HH:mm";
+            this.dtpFrom3.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
+            this.dtpFrom3.Location = new System.Drawing.Point(87, 102);
+            this.dtpFrom3.Name = "dtpFrom3";
+            this.dtpFrom3.ShowUpDown = true;
+            this.dtpFrom3.Size = new System.Drawing.Size(60, 25);
+            this.dtpFrom3.TabIndex = 15;
             // 
-            // checkBox2
+            // cbZone2
             // 
-            this.checkBox2.AutoSize = true;
-            this.checkBox2.Location = new System.Drawing.Point(6, 77);
-            this.checkBox2.Name = "checkBox2";
-            this.checkBox2.Size = new System.Drawing.Size(70, 21);
-            this.checkBox2.TabIndex = 14;
-            this.checkBox2.Text = "Zone 1:";
-            this.checkBox2.UseVisualStyleBackColor = true;
+            this.cbZone2.AutoSize = true;
+            this.cbZone2.Location = new System.Drawing.Point(6, 77);
+            this.cbZone2.Name = "cbZone2";
+            this.cbZone2.Size = new System.Drawing.Size(70, 21);
+            this.cbZone2.TabIndex = 14;
+            this.cbZone2.Text = "Zone 2:";
+            this.cbZone2.UseVisualStyleBackColor = true;
             // 
-            // numericUpDown2
+            // nudAutoBrightness2
             // 
-            this.numericUpDown2.Location = new System.Drawing.Point(342, 75);
-            this.numericUpDown2.Name = "numericUpDown2";
-            this.numericUpDown2.Size = new System.Drawing.Size(44, 25);
-            this.numericUpDown2.TabIndex = 10;
-            this.numericUpDown2.Value = new decimal(new int[] {
+            this.nudAutoBrightness2.Location = new System.Drawing.Point(342, 75);
+            this.nudAutoBrightness2.Name = "nudAutoBrightness2";
+            this.nudAutoBrightness2.Size = new System.Drawing.Size(44, 25);
+            this.nudAutoBrightness2.TabIndex = 10;
+            this.nudAutoBrightness2.Value = new decimal(new int[] {
             100,
             0,
             0,
@@ -348,15 +361,15 @@ namespace Lazy_Eye_Saver
             this.label4.TabIndex = 13;
             this.label4.Text = "Set Brightness:";
             // 
-            // dateTimePicker3
+            // dtpTo2
             // 
-            this.dateTimePicker3.CustomFormat = "HH:mm";
-            this.dateTimePicker3.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.dateTimePicker3.Location = new System.Drawing.Point(182, 75);
-            this.dateTimePicker3.Name = "dateTimePicker3";
-            this.dateTimePicker3.ShowUpDown = true;
-            this.dateTimePicker3.Size = new System.Drawing.Size(60, 25);
-            this.dateTimePicker3.TabIndex = 12;
+            this.dtpTo2.CustomFormat = "HH:mm";
+            this.dtpTo2.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
+            this.dtpTo2.Location = new System.Drawing.Point(182, 75);
+            this.dtpTo2.Name = "dtpTo2";
+            this.dtpTo2.ShowUpDown = true;
+            this.dtpTo2.Size = new System.Drawing.Size(60, 25);
+            this.dtpTo2.TabIndex = 12;
             // 
             // label5
             // 
@@ -367,33 +380,33 @@ namespace Lazy_Eye_Saver
             this.label5.TabIndex = 11;
             this.label5.Text = "-->";
             // 
-            // dateTimePicker4
+            // dtpFrom2
             // 
-            this.dateTimePicker4.CustomFormat = "HH:mm";
-            this.dateTimePicker4.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.dateTimePicker4.Location = new System.Drawing.Point(87, 75);
-            this.dateTimePicker4.Name = "dateTimePicker4";
-            this.dateTimePicker4.ShowUpDown = true;
-            this.dateTimePicker4.Size = new System.Drawing.Size(60, 25);
-            this.dateTimePicker4.TabIndex = 9;
+            this.dtpFrom2.CustomFormat = "HH:mm";
+            this.dtpFrom2.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
+            this.dtpFrom2.Location = new System.Drawing.Point(87, 75);
+            this.dtpFrom2.Name = "dtpFrom2";
+            this.dtpFrom2.ShowUpDown = true;
+            this.dtpFrom2.Size = new System.Drawing.Size(60, 25);
+            this.dtpFrom2.TabIndex = 9;
             // 
-            // checkBox1
+            // cbZone1
             // 
-            this.checkBox1.AutoSize = true;
-            this.checkBox1.Location = new System.Drawing.Point(6, 50);
-            this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(70, 21);
-            this.checkBox1.TabIndex = 8;
-            this.checkBox1.Text = "Zone 1:";
-            this.checkBox1.UseVisualStyleBackColor = true;
+            this.cbZone1.AutoSize = true;
+            this.cbZone1.Location = new System.Drawing.Point(6, 50);
+            this.cbZone1.Name = "cbZone1";
+            this.cbZone1.Size = new System.Drawing.Size(70, 21);
+            this.cbZone1.TabIndex = 8;
+            this.cbZone1.Text = "Zone 1:";
+            this.cbZone1.UseVisualStyleBackColor = true;
             // 
-            // numericUpDown1
+            // nudAutoBrightness1
             // 
-            this.numericUpDown1.Location = new System.Drawing.Point(342, 48);
-            this.numericUpDown1.Name = "numericUpDown1";
-            this.numericUpDown1.Size = new System.Drawing.Size(44, 25);
-            this.numericUpDown1.TabIndex = 5;
-            this.numericUpDown1.Value = new decimal(new int[] {
+            this.nudAutoBrightness1.Location = new System.Drawing.Point(342, 48);
+            this.nudAutoBrightness1.Name = "nudAutoBrightness1";
+            this.nudAutoBrightness1.Size = new System.Drawing.Size(44, 25);
+            this.nudAutoBrightness1.TabIndex = 5;
+            this.nudAutoBrightness1.Value = new decimal(new int[] {
             100,
             0,
             0,
@@ -408,15 +421,15 @@ namespace Lazy_Eye_Saver
             this.label3.TabIndex = 7;
             this.label3.Text = "Set Brightness:";
             // 
-            // dateTimePicker2
+            // dtpTo1
             // 
-            this.dateTimePicker2.CustomFormat = "HH:mm";
-            this.dateTimePicker2.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.dateTimePicker2.Location = new System.Drawing.Point(182, 48);
-            this.dateTimePicker2.Name = "dateTimePicker2";
-            this.dateTimePicker2.ShowUpDown = true;
-            this.dateTimePicker2.Size = new System.Drawing.Size(60, 25);
-            this.dateTimePicker2.TabIndex = 6;
+            this.dtpTo1.CustomFormat = "HH:mm";
+            this.dtpTo1.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
+            this.dtpTo1.Location = new System.Drawing.Point(182, 48);
+            this.dtpTo1.Name = "dtpTo1";
+            this.dtpTo1.ShowUpDown = true;
+            this.dtpTo1.Size = new System.Drawing.Size(60, 25);
+            this.dtpTo1.TabIndex = 6;
             // 
             // label2
             // 
@@ -427,15 +440,15 @@ namespace Lazy_Eye_Saver
             this.label2.TabIndex = 5;
             this.label2.Text = "-->";
             // 
-            // dateTimePicker1
+            // dtpFrom1
             // 
-            this.dateTimePicker1.CustomFormat = "HH:mm";
-            this.dateTimePicker1.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.dateTimePicker1.Location = new System.Drawing.Point(87, 48);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.ShowUpDown = true;
-            this.dateTimePicker1.Size = new System.Drawing.Size(60, 25);
-            this.dateTimePicker1.TabIndex = 1;
+            this.dtpFrom1.CustomFormat = "HH:mm";
+            this.dtpFrom1.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
+            this.dtpFrom1.Location = new System.Drawing.Point(87, 48);
+            this.dtpFrom1.Name = "dtpFrom1";
+            this.dtpFrom1.ShowUpDown = true;
+            this.dtpFrom1.Size = new System.Drawing.Size(60, 25);
+            this.dtpFrom1.TabIndex = 1;
             // 
             // cbAutoBrightnessControl
             // 
@@ -482,19 +495,6 @@ namespace Lazy_Eye_Saver
             this.toolStripStatusLabel3.Size = new System.Drawing.Size(94, 17);
             this.toolStripStatusLabel3.Text = "By: Khalil Hamdi";
             // 
-            // cbTimeUnit
-            // 
-            this.cbTimeUnit.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.cbTimeUnit.FormattingEnabled = true;
-            this.cbTimeUnit.Items.AddRange(new object[] {
-            "Seconds",
-            "Minutes",
-            "Hours"});
-            this.cbTimeUnit.Location = new System.Drawing.Point(306, 155);
-            this.cbTimeUnit.Name = "cbTimeUnit";
-            this.cbTimeUnit.Size = new System.Drawing.Size(80, 25);
-            this.cbTimeUnit.TabIndex = 29;
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 17F);
@@ -516,10 +516,10 @@ namespace Lazy_Eye_Saver
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown5)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.nudAutoBrightness4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.nudAutoBrightness3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.nudAutoBrightness2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.nudAutoBrightness1)).EndInit();
             this.statusStrip1.ResumeLayout(false);
             this.statusStrip1.PerformLayout();
             this.ResumeLayout(false);
@@ -537,30 +537,30 @@ namespace Lazy_Eye_Saver
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Timer tmrCheckAutomation;
         private System.Windows.Forms.CheckBox cbAutoBrightnessControl;
-        private System.Windows.Forms.DateTimePicker dateTimePicker1;
-        private System.Windows.Forms.DateTimePicker dateTimePicker2;
+        private System.Windows.Forms.DateTimePicker dtpFrom1;
+        private System.Windows.Forms.DateTimePicker dtpTo1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.NumericUpDown numericUpDown1;
-        private System.Windows.Forms.CheckBox checkBox1;
-        private System.Windows.Forms.CheckBox checkBox4;
-        private System.Windows.Forms.NumericUpDown numericUpDown4;
+        private System.Windows.Forms.NumericUpDown nudAutoBrightness1;
+        private System.Windows.Forms.CheckBox cbZone1;
+        private System.Windows.Forms.CheckBox cbZone4;
+        private System.Windows.Forms.NumericUpDown nudAutoBrightness4;
         private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.DateTimePicker dateTimePicker7;
+        private System.Windows.Forms.DateTimePicker dtpTo4;
         private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.DateTimePicker dateTimePicker8;
-        private System.Windows.Forms.CheckBox checkBox3;
-        private System.Windows.Forms.NumericUpDown numericUpDown3;
+        private System.Windows.Forms.DateTimePicker dtpFrom4;
+        private System.Windows.Forms.CheckBox cbZone3;
+        private System.Windows.Forms.NumericUpDown nudAutoBrightness3;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.DateTimePicker dateTimePicker5;
+        private System.Windows.Forms.DateTimePicker dtpTo3;
         private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.DateTimePicker dateTimePicker6;
-        private System.Windows.Forms.CheckBox checkBox2;
-        private System.Windows.Forms.NumericUpDown numericUpDown2;
+        private System.Windows.Forms.DateTimePicker dtpFrom3;
+        private System.Windows.Forms.CheckBox cbZone2;
+        private System.Windows.Forms.NumericUpDown nudAutoBrightness2;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.DateTimePicker dateTimePicker3;
+        private System.Windows.Forms.DateTimePicker dtpTo2;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.DateTimePicker dateTimePicker4;
+        private System.Windows.Forms.DateTimePicker dtpFrom2;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.NumericUpDown numericUpDown5;
         private System.Windows.Forms.StatusStrip statusStrip1;
