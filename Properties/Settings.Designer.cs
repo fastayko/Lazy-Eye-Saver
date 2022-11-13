@@ -238,5 +238,29 @@ namespace Lazy_Eye_Saver.Properties {
                 this["Brightness4"] = value;
             }
         }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("0")]
+        public int SmoothDuration {
+            get {
+                return ((int)(this["SmoothDuration"]));
+            }
+            set {
+                this["SmoothDuration"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("Seconds")]
+        public string SmoothUnit {
+            get {
+                return ((string)(this["SmoothUnit"]));
+            }
+            set {
+                this["SmoothUnit"] = value;
+            }
+        }
     }
 }
