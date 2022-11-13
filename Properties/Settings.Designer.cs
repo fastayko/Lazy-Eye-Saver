@@ -8,21 +8,234 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-
-namespace Lazy_Eye_Saver.Properties
-{
+namespace Lazy_Eye_Saver.Properties {
+    
+    
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.VisualStudio.Editors.SettingsDesigner.SettingsSingleFileGenerator", "11.0.0.0")]
-    internal sealed partial class Settings : global::System.Configuration.ApplicationSettingsBase
-    {
-
+    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.VisualStudio.Editors.SettingsDesigner.SettingsSingleFileGenerator", "16.10.0.0")]
+    internal sealed partial class Settings : global::System.Configuration.ApplicationSettingsBase {
+        
         private static Settings defaultInstance = ((Settings)(global::System.Configuration.ApplicationSettingsBase.Synchronized(new Settings())));
-
-        public static Settings Default
-        {
-            get
-            {
+        
+        public static Settings Default {
+            get {
                 return defaultInstance;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("100")]
+        public int lastBrightness {
+            get {
+                return ((int)(this["lastBrightness"]));
+            }
+            set {
+                this["lastBrightness"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool AutoBrightnessChecked {
+            get {
+                return ((bool)(this["AutoBrightnessChecked"]));
+            }
+            set {
+                this["AutoBrightnessChecked"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool Zone1Checked {
+            get {
+                return ((bool)(this["Zone1Checked"]));
+            }
+            set {
+                this["Zone1Checked"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool Zone2Checked {
+            get {
+                return ((bool)(this["Zone2Checked"]));
+            }
+            set {
+                this["Zone2Checked"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool Zone3Checked {
+            get {
+                return ((bool)(this["Zone3Checked"]));
+            }
+            set {
+                this["Zone3Checked"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool Zone4Checked {
+            get {
+                return ((bool)(this["Zone4Checked"]));
+            }
+            set {
+                this["Zone4Checked"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string TimeFrom1 {
+            get {
+                return ((string)(this["TimeFrom1"]));
+            }
+            set {
+                this["TimeFrom1"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string TimeFrom2 {
+            get {
+                return ((string)(this["TimeFrom2"]));
+            }
+            set {
+                this["TimeFrom2"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string TimeFrom3 {
+            get {
+                return ((string)(this["TimeFrom3"]));
+            }
+            set {
+                this["TimeFrom3"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string TimeFrom4 {
+            get {
+                return ((string)(this["TimeFrom4"]));
+            }
+            set {
+                this["TimeFrom4"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string TimeTo1 {
+            get {
+                return ((string)(this["TimeTo1"]));
+            }
+            set {
+                this["TimeTo1"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string TimeTo2 {
+            get {
+                return ((string)(this["TimeTo2"]));
+            }
+            set {
+                this["TimeTo2"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string TimeTo3 {
+            get {
+                return ((string)(this["TimeTo3"]));
+            }
+            set {
+                this["TimeTo3"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string TimeTo4 {
+            get {
+                return ((string)(this["TimeTo4"]));
+            }
+            set {
+                this["TimeTo4"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("0")]
+        public int Brightness1 {
+            get {
+                return ((int)(this["Brightness1"]));
+            }
+            set {
+                this["Brightness1"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("0")]
+        public int Brightness2 {
+            get {
+                return ((int)(this["Brightness2"]));
+            }
+            set {
+                this["Brightness2"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("0")]
+        public int Brightness3 {
+            get {
+                return ((int)(this["Brightness3"]));
+            }
+            set {
+                this["Brightness3"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("0")]
+        public int Brightness4 {
+            get {
+                return ((int)(this["Brightness4"]));
+            }
+            set {
+                this["Brightness4"] = value;
             }
         }
     }
