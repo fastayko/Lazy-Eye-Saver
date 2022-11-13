@@ -64,6 +64,18 @@ namespace Lazy_Eye_Saver
             {
                 setBrightness((int)nudAutoBrightness1.Value);
             }
+            else if (cbZone2.Checked && DateTime.Compare(now, dtpFrom2.Value) >= 0 && DateTime.Compare(now, dtpTo2.Value) <= 0)
+            {
+                setBrightness((int)nudAutoBrightness2.Value);
+            }
+            else if (cbZone3.Checked && DateTime.Compare(now, dtpFrom3.Value) >= 0 && DateTime.Compare(now, dtpTo3.Value) <= 0)
+            {
+                setBrightness((int)nudAutoBrightness3.Value);
+            }
+            else if (cbZone4.Checked && DateTime.Compare(now, dtpFrom4.Value) >= 0 && DateTime.Compare(now, dtpTo4.Value) <= 0)
+            {
+                setBrightness((int)nudAutoBrightness4.Value);
+            }
             //TODO: i have to make it do once not spam every minute
         }
     }
