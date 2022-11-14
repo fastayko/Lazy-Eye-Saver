@@ -97,10 +97,9 @@ namespace Lazy_Eye_Saver.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("")]
-        public string TimeFrom1 {
+        public global::System.DateTime TimeFrom1 {
             get {
-                return ((string)(this["TimeFrom1"]));
+                return ((global::System.DateTime)(this["TimeFrom1"]));
             }
             set {
                 this["TimeFrom1"] = value;
@@ -109,10 +108,9 @@ namespace Lazy_Eye_Saver.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("")]
-        public string TimeFrom2 {
+        public global::System.DateTime TimeFrom2 {
             get {
-                return ((string)(this["TimeFrom2"]));
+                return ((global::System.DateTime)(this["TimeFrom2"]));
             }
             set {
                 this["TimeFrom2"] = value;
@@ -121,10 +119,9 @@ namespace Lazy_Eye_Saver.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("")]
-        public string TimeFrom3 {
+        public global::System.DateTime TimeFrom3 {
             get {
-                return ((string)(this["TimeFrom3"]));
+                return ((global::System.DateTime)(this["TimeFrom3"]));
             }
             set {
                 this["TimeFrom3"] = value;
@@ -133,10 +130,9 @@ namespace Lazy_Eye_Saver.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("")]
-        public string TimeFrom4 {
+        public global::System.DateTime TimeFrom4 {
             get {
-                return ((string)(this["TimeFrom4"]));
+                return ((global::System.DateTime)(this["TimeFrom4"]));
             }
             set {
                 this["TimeFrom4"] = value;
@@ -145,10 +141,9 @@ namespace Lazy_Eye_Saver.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("")]
-        public string TimeTo1 {
+        public global::System.DateTime TimeTo1 {
             get {
-                return ((string)(this["TimeTo1"]));
+                return ((global::System.DateTime)(this["TimeTo1"]));
             }
             set {
                 this["TimeTo1"] = value;
@@ -157,10 +152,9 @@ namespace Lazy_Eye_Saver.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("")]
-        public string TimeTo2 {
+        public global::System.DateTime TimeTo2 {
             get {
-                return ((string)(this["TimeTo2"]));
+                return ((global::System.DateTime)(this["TimeTo2"]));
             }
             set {
                 this["TimeTo2"] = value;
@@ -169,10 +163,9 @@ namespace Lazy_Eye_Saver.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("")]
-        public string TimeTo3 {
+        public global::System.DateTime TimeTo3 {
             get {
-                return ((string)(this["TimeTo3"]));
+                return ((global::System.DateTime)(this["TimeTo3"]));
             }
             set {
                 this["TimeTo3"] = value;
@@ -181,10 +174,9 @@ namespace Lazy_Eye_Saver.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("")]
-        public string TimeTo4 {
+        public global::System.DateTime TimeTo4 {
             get {
-                return ((string)(this["TimeTo4"]));
+                return ((global::System.DateTime)(this["TimeTo4"]));
             }
             set {
                 this["TimeTo4"] = value;

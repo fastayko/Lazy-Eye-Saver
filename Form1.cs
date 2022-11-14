@@ -47,7 +47,33 @@ namespace Lazy_Eye_Saver
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            cbTimeUnit.SelectedItem = "Seconds";
+            loadSettings();
+            //TODO: auto save settings
+        }
+
+        void loadSettings()
+        {
+            nudBrightness.Value = Properties.Settings.Default.lastBrightness;
+            tbBrightness.Value = Properties.Settings.Default.lastBrightness;
+            cbAutoBrightnessControl.Checked = Properties.Settings.Default.AutoBrightnessChecked;
+            cbZone1.Checked = Properties.Settings.Default.Zone1Checked;
+            cbZone2.Checked = Properties.Settings.Default.Zone2Checked;
+            cbZone3.Checked = Properties.Settings.Default.Zone3Checked;
+            cbZone4.Checked = Properties.Settings.Default.Zone4Checked;
+            dtpFrom1.Value = Properties.Settings.Default.TimeFrom1;
+            dtpFrom2.Value = Properties.Settings.Default.TimeFrom2;
+            dtpFrom3.Value = Properties.Settings.Default.TimeFrom3;
+            dtpFrom4.Value = Properties.Settings.Default.TimeFrom4;
+            dtpTo1.Value = Properties.Settings.Default.TimeTo1;
+            dtpTo2.Value = Properties.Settings.Default.TimeTo2;
+            dtpTo3.Value = Properties.Settings.Default.TimeTo3;
+            dtpTo4.Value = Properties.Settings.Default.TimeTo4;
+            nudAutoBrightness1.Value = Properties.Settings.Default.Brightness1;
+            nudAutoBrightness2.Value = Properties.Settings.Default.Brightness2;
+            nudAutoBrightness2.Value = Properties.Settings.Default.Brightness3;
+            nudAutoBrightness3.Value = Properties.Settings.Default.Brightness4;
+            nudSmoothDuration.Value = Properties.Settings.Default.SmoothDuration;
+            cbTimeUnit.SelectedItem = Properties.Settings.Default.SmoothUnit;
         }
 
         private void cbAutoBrightnessControl_CheckedChanged(object sender, EventArgs e)

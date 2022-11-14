@@ -37,7 +37,7 @@ namespace Lazy_Eye_Saver
             this.tbBrightness = new System.Windows.Forms.TrackBar();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.cbTimeUnit = new System.Windows.Forms.ComboBox();
-            this.numericUpDown5 = new System.Windows.Forms.NumericUpDown();
+            this.nudSmoothDuration = new System.Windows.Forms.NumericUpDown();
             this.label10 = new System.Windows.Forms.Label();
             this.cbZone4 = new System.Windows.Forms.CheckBox();
             this.nudAutoBrightness4 = new System.Windows.Forms.NumericUpDown();
@@ -73,7 +73,7 @@ namespace Lazy_Eye_Saver
             ((System.ComponentModel.ISupportInitialize)(this.nudBrightness)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.tbBrightness)).BeginInit();
             this.groupBox2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.nudSmoothDuration)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.nudAutoBrightness4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.nudAutoBrightness3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.nudAutoBrightness2)).BeginInit();
@@ -142,7 +142,7 @@ namespace Lazy_Eye_Saver
             // groupBox2
             // 
             this.groupBox2.Controls.Add(this.cbTimeUnit);
-            this.groupBox2.Controls.Add(this.numericUpDown5);
+            this.groupBox2.Controls.Add(this.nudSmoothDuration);
             this.groupBox2.Controls.Add(this.label10);
             this.groupBox2.Controls.Add(this.cbZone4);
             this.groupBox2.Controls.Add(this.nudAutoBrightness4);
@@ -189,13 +189,13 @@ namespace Lazy_Eye_Saver
             this.cbTimeUnit.Size = new System.Drawing.Size(80, 25);
             this.cbTimeUnit.TabIndex = 29;
             // 
-            // numericUpDown5
+            // nudSmoothDuration
             // 
-            this.numericUpDown5.Location = new System.Drawing.Point(242, 155);
-            this.numericUpDown5.Name = "numericUpDown5";
-            this.numericUpDown5.Size = new System.Drawing.Size(58, 25);
-            this.numericUpDown5.TabIndex = 27;
-            this.numericUpDown5.Value = new decimal(new int[] {
+            this.nudSmoothDuration.Location = new System.Drawing.Point(242, 155);
+            this.nudSmoothDuration.Name = "nudSmoothDuration";
+            this.nudSmoothDuration.Size = new System.Drawing.Size(58, 25);
+            this.nudSmoothDuration.TabIndex = 27;
+            this.nudSmoothDuration.Value = new decimal(new int[] {
             100,
             0,
             0,
@@ -517,7 +517,7 @@ namespace Lazy_Eye_Saver
             ((System.ComponentModel.ISupportInitialize)(this.tbBrightness)).EndInit();
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.nudSmoothDuration)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.nudAutoBrightness4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.nudAutoBrightness3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.nudAutoBrightness2)).EndInit();
@@ -564,7 +564,7 @@ namespace Lazy_Eye_Saver
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.DateTimePicker dtpFrom2;
         private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.NumericUpDown numericUpDown5;
+        private System.Windows.Forms.NumericUpDown nudSmoothDuration;
         private System.Windows.Forms.StatusStrip statusStrip1;
         private System.Windows.Forms.ToolStripStatusLabel toolStripStatusLabel1;
         private System.Windows.Forms.ToolStripStatusLabel toolStripStatusLabel2;
