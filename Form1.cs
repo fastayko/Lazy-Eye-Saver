@@ -82,6 +82,12 @@ namespace Lazy_Eye_Saver
             else tmrCheckAutomation.Enabled = false;
         }
 
+        private void updateStatus(string text)
+        {
+
+            lblStatus.Text = "Status: " + text + ", at: " + DateTime.Now.Minute + ":" + DateTime.Now.Second;
+        }
+
         private void tmrCheckAutomation_Tick(object sender, EventArgs e)
         {
             DateTime now = DateTime.Now;
@@ -89,18 +95,22 @@ namespace Lazy_Eye_Saver
             if (cbZone1.Checked && DateTime.Compare(now, dtpFrom1.Value) >= 0 && DateTime.Compare(now, dtpTo1.Value) <= 0)
             {
                 setBrightness((int)nudAutoBrightness1.Value);
+                updateStatus("Zone 1 Activated.");
             }
             else if (cbZone2.Checked && DateTime.Compare(now, dtpFrom2.Value) >= 0 && DateTime.Compare(now, dtpTo2.Value) <= 0)
             {
                 setBrightness((int)nudAutoBrightness2.Value);
+                updateStatus("Zone 2 Activated.");
             }
             else if (cbZone3.Checked && DateTime.Compare(now, dtpFrom3.Value) >= 0 && DateTime.Compare(now, dtpTo3.Value) <= 0)
             {
                 setBrightness((int)nudAutoBrightness3.Value);
+                updateStatus("Zone 3 Activated.");
             }
             else if (cbZone4.Checked && DateTime.Compare(now, dtpFrom4.Value) >= 0 && DateTime.Compare(now, dtpTo4.Value) <= 0)
             {
                 setBrightness((int)nudAutoBrightness4.Value);
+                updateStatus("Zone 4 Activated.");
             }
             //TODO: i have to make it do once not spam every minute
         }

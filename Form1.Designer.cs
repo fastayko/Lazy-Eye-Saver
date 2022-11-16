@@ -66,7 +66,7 @@ namespace Lazy_Eye_Saver
             this.cbAutoBrightnessControl = new System.Windows.Forms.CheckBox();
             this.tmrCheckAutomation = new System.Windows.Forms.Timer(this.components);
             this.statusStrip1 = new System.Windows.Forms.StatusStrip();
-            this.toolStripStatusLabel1 = new System.Windows.Forms.ToolStripStatusLabel();
+            this.lblStatus = new System.Windows.Forms.ToolStripStatusLabel();
             this.toolStripStatusLabel2 = new System.Windows.Forms.ToolStripStatusLabel();
             this.toolStripStatusLabel3 = new System.Windows.Forms.ToolStripStatusLabel();
             this.groupBox1.SuspendLayout();
@@ -470,7 +470,7 @@ namespace Lazy_Eye_Saver
             // statusStrip1
             // 
             this.statusStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.toolStripStatusLabel1,
+            this.lblStatus,
             this.toolStripStatusLabel2,
             this.toolStripStatusLabel3});
             this.statusStrip1.Location = new System.Drawing.Point(0, 276);
@@ -479,16 +479,16 @@ namespace Lazy_Eye_Saver
             this.statusStrip1.TabIndex = 29;
             this.statusStrip1.Text = "statusStrip1";
             // 
-            // toolStripStatusLabel1
+            // lblStatus
             // 
-            this.toolStripStatusLabel1.Name = "toolStripStatusLabel1";
-            this.toolStripStatusLabel1.Size = new System.Drawing.Size(161, 17);
-            this.toolStripStatusLabel1.Text = "Next Transition in ?? Minutes.";
+            this.lblStatus.Name = "lblStatus";
+            this.lblStatus.Size = new System.Drawing.Size(73, 17);
+            this.lblStatus.Text = "Status: Done";
             // 
             // toolStripStatusLabel2
             // 
             this.toolStripStatusLabel2.Name = "toolStripStatusLabel2";
-            this.toolStripStatusLabel2.Size = new System.Drawing.Size(150, 17);
+            this.toolStripStatusLabel2.Size = new System.Drawing.Size(119, 17);
             this.toolStripStatusLabel2.Spring = true;
             // 
             // toolStripStatusLabel3
@@ -566,7 +566,7 @@ namespace Lazy_Eye_Saver
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.NumericUpDown nudSmoothDuration;
         private System.Windows.Forms.StatusStrip statusStrip1;
-        private System.Windows.Forms.ToolStripStatusLabel toolStripStatusLabel1;
+        private System.Windows.Forms.ToolStripStatusLabel lblStatus;
         private System.Windows.Forms.ToolStripStatusLabel toolStripStatusLabel2;
         private System.Windows.Forms.ToolStripStatusLabel toolStripStatusLabel3;
         private System.Windows.Forms.ComboBox cbTimeUnit;
