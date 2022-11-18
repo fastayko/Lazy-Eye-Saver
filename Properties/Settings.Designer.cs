@@ -97,6 +97,7 @@ namespace Lazy_Eye_Saver.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("1753-01-01")]
         public global::System.DateTime TimeFrom1 {
             get {
                 return ((global::System.DateTime)(this["TimeFrom1"]));
@@ -108,6 +109,7 @@ namespace Lazy_Eye_Saver.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("1753-01-01")]
         public global::System.DateTime TimeFrom2 {
             get {
                 return ((global::System.DateTime)(this["TimeFrom2"]));
@@ -119,6 +121,7 @@ namespace Lazy_Eye_Saver.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("1753-01-01")]
         public global::System.DateTime TimeFrom3 {
             get {
                 return ((global::System.DateTime)(this["TimeFrom3"]));
@@ -130,6 +133,7 @@ namespace Lazy_Eye_Saver.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("1753-01-01")]
         public global::System.DateTime TimeFrom4 {
             get {
                 return ((global::System.DateTime)(this["TimeFrom4"]));
@@ -141,6 +145,7 @@ namespace Lazy_Eye_Saver.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("1753-01-01")]
         public global::System.DateTime TimeTo1 {
             get {
                 return ((global::System.DateTime)(this["TimeTo1"]));
@@ -152,6 +157,7 @@ namespace Lazy_Eye_Saver.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("1753-01-01")]
         public global::System.DateTime TimeTo2 {
             get {
                 return ((global::System.DateTime)(this["TimeTo2"]));
@@ -163,6 +169,7 @@ namespace Lazy_Eye_Saver.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("1753-01-01")]
         public global::System.DateTime TimeTo3 {
             get {
                 return ((global::System.DateTime)(this["TimeTo3"]));
@@ -174,6 +181,7 @@ namespace Lazy_Eye_Saver.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("1753-01-01")]
         public global::System.DateTime TimeTo4 {
             get {
                 return ((global::System.DateTime)(this["TimeTo4"]));

@@ -21,28 +21,28 @@
       <Value Profile="(Default)">False</Value>
     </Setting>
     <Setting Name="TimeFrom1" Type="System.DateTime" Scope="User">
-      <Value Profile="(Default)" />
+      <Value Profile="(Default)">1753-01-01</Value>
     </Setting>
     <Setting Name="TimeFrom2" Type="System.DateTime" Scope="User">
-      <Value Profile="(Default)" />
+      <Value Profile="(Default)">1753-01-01</Value>
     </Setting>
     <Setting Name="TimeFrom3" Type="System.DateTime" Scope="User">
-      <Value Profile="(Default)" />
+      <Value Profile="(Default)">1753-01-01</Value>
     </Setting>
     <Setting Name="TimeFrom4" Type="System.DateTime" Scope="User">
-      <Value Profile="(Default)" />
+      <Value Profile="(Default)">1753-01-01</Value>
     </Setting>
     <Setting Name="TimeTo1" Type="System.DateTime" Scope="User">
-      <Value Profile="(Default)" />
+      <Value Profile="(Default)">1753-01-01</Value>
     </Setting>
     <Setting Name="TimeTo2" Type="System.DateTime" Scope="User">
-      <Value Profile="(Default)" />
+      <Value Profile="(Default)">1753-01-01</Value>
     </Setting>
     <Setting Name="TimeTo3" Type="System.DateTime" Scope="User">
-      <Value Profile="(Default)" />
+      <Value Profile="(Default)">1753-01-01</Value>
     </Setting>
     <Setting Name="TimeTo4" Type="System.DateTime" Scope="User">
-      <Value Profile="(Default)" />
+      <Value Profile="(Default)">1753-01-01</Value>
     </Setting>
     <Setting Name="Brightness1" Type="System.Int32" Scope="User">
       <Value Profile="(Default)">0</Value>
